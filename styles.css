@@ -30,7 +30,7 @@ header {
 }
 
 .landing h1 {
-  font-size: 42px;
+  font-size: 30px;
   padding: 10px;
   padding-bottom: 20px;
   font-family: 'Quicksand', sans-serif;
@@ -44,7 +44,7 @@ header {
   position: relative;
   top: 60px;
   color: #111;
-  font-size: 3.25em;
+  font-size: 2em;
   -webkit-animation: animate 2s linear infinite;
           animation: animate 2s linear infinite;
 }
@@ -269,7 +269,7 @@ nav {
 
 .procard {
   border: solid black 2px;
-  height: 600px;
+  height: 400px;
   width: 400px;
   margin: 40px;
   background-color: purple;
@@ -301,7 +301,7 @@ nav {
 
 .procard .txtcont {
   width: 90%;
-  height: 30%;
+  height: 40%;
   background-color: white;
 }
 
@@ -312,7 +312,9 @@ nav {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  font-size: 25px;
+  font-size: 20px;
+  color: purple;
+  padding: 5px;
 }
 
 .procard .prolinks {
@@ -322,7 +324,7 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   margin: auto;
   text-decoration: none;
@@ -645,6 +647,113 @@ footer a:hover {
     padding-top: 50px;
     font-size: 40px;
     width: 100%;
+  }
+  .projects {
+    background-color: white;
+    max-width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    padding-bottom: 50px;
+  }
+  .projects h1 {
+    padding: 20px;
+    -webkit-text-decoration: underline purple;
+            text-decoration: underline purple;
+    font-size: 40px;
+  }
+  .projects h3 {
+    color: grey;
+    padding: 30px;
+  }
+  .procont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 500px;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 90%;
+  }
+  .procard {
+    border: solid black 2px;
+    height: 600px;
+    width: 400px;
+    margin: 40px;
+    background-color: purple;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .procard .imgcont {
+    width: 90%;
+    height: 40%;
+    background-color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  .procard .imgcont img {
+    height: 100%;
+    width: 100%;
+  }
+  .procard .txtcont {
+    width: 90%;
+    height: 40%;
+    background-color: white;
+  }
+  .procard .txtcont .tech {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    font-size: 30px;
+    color: purple;
+    padding: 5px;
+  }
+  .procard .prolinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+  }
+  .procard .prolinks i {
+    color: white;
+    margin: 30px;
+  }
+  .procard .prolinks i:hover {
+    color: #fa0a82;
   }
   .skills {
     background-color: purple;
