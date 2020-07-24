@@ -398,6 +398,7 @@ footer {
     font-size: 24px;
     text-transform: uppercase;
     font-style: none;
+    z-index: 1;
   }
 
   .menu {
@@ -545,6 +546,7 @@ footer {
       align-items: center;
       position: relative;
       padding-bottom: 50px;
+     
       
       h1 {
         padding: 20px;

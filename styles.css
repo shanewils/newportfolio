@@ -497,6 +497,7 @@ footer a:hover {
     font-size: 24px;
     text-transform: uppercase;
     font-style: none;
+    z-index: 1;
   }
   .menu {
     margin: 0;
