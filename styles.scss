@@ -174,12 +174,22 @@ nav {
       margin: 30px;
       padding: 20px;
 
-      p{
+      p {
         color: white;
         margin: 0 auto;
         padding: 24px;
         text-align: justify;
         font-size: 20px;   
+      }
+
+      li {
+        color: purple;
+        margin: 0 auto;
+        padding: 12px;
+        text-align: justify;
+        font-size: 20px;   
+        margin-left: 5%;
+        background-color: white;
       }
     }
   }

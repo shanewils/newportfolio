@@ -220,6 +220,16 @@ nav {
   font-size: 20px;
 }
 
+.about .wrapper .text li {
+  color: purple;
+  margin: 0 auto;
+  padding: 12px;
+  text-align: justify;
+  font-size: 20px;
+  margin-left: 5%;
+  background-color: white;
+}
+
 .projects {
   background-color: white;
   max-width: 100%;
