@@ -158,12 +158,24 @@ nav {
   margin: 0 auto;
   padding-bottom: 20px;
 
+  .imgwrapper {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 80%;
+      margin: 0px 50px;
+      border: 5px solid purple;
+    }
+  }
+
   h1 {
     color: black;
     text-decoration: underline purple;
     text-align: center;
     align-self: center;
     padding-top: 50px;
+    padding-bottom: 50px;
     font-size: 40px;
   }
   .wrapper {
@@ -545,7 +557,24 @@ footer {
       font-size: 40px;
       width: 100%;
     }
-  
+
+    .about {
+      background-color: white;
+      max-width: 100%;
+      margin: 0 auto;
+      padding-bottom: 20px;
+    
+      .imgwrapper {
+        display: flex;
+        justify-content: center;
+    
+        img {
+          width: 30%;
+          margin: 0px 50px;
+        }
+      }
+    }
+
     .projects {
       background-color: white;
       max-width: 100%;
