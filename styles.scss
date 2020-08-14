@@ -184,7 +184,7 @@ nav {
 
     .text {
       margin: 30px;
-      padding: 20px;
+    
 
       p {
         color: white;
@@ -299,7 +299,7 @@ nav {
 .skills {
   background-color: purple;
   max-width: 100%;
-  height: 400px;
+  height: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -326,14 +326,44 @@ nav {
     color: white;
     display: block;
     text-align: justify;
+    width: 90%;
   }
 
   .icons {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
+  }
+
+  .skillwrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+    padding: 20px;
+
+    .skillcard {
+      background-color: white;
+      padding: 20px;
+      width: 100%;
+      margin: 30px;
+    
+      h3 {
+        color: purple;
+        padding: 20px;
+        text-align: center;
+      }
+
+      li {
+        margin: 10px;
+        padding: 0;
+        color: gray;
+      }
+    }
   }
 }
 
@@ -347,13 +377,12 @@ nav {
   justify-content: center;
   align-items: center;
   position: relative;
-  // z-index: -1;
 
   i {
     font-style: none;
     color: purple;
     font-size: 100px;
-    padding: 20px;
+    padding: 10px;
   }
 
   a {
@@ -381,6 +410,7 @@ nav {
     justify-content: center;
     align-items: center;
     position: relative;
+    max-width: 90%;
   }
 }
 
@@ -664,35 +694,71 @@ footer {
         }
       }
     }
-  .skills {
-    background-color: purple;
-    max-width: 100%;
-    height: 450px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: -2;
-
-    i {
-      color: white;
-      font-size: 100px;
-      padding: 20px;
+    .skills {
+      background-color: purple;
+      max-width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      z-index: -2;
+    
+      i {
+        color: white;
+        font-size: 100px;
+        padding: 20px;
+      }
+    
+      h1 {
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 40px;
+      }
+    
+      h3 {
+        color: white;
+        display: block;
+        text-align: center;
+      }
+    
+      .icons {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+    
+      .skillwrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 80%;
+        height: 400px;
+        padding: 20px;
+    
+        .skillcard {
+          background-color: white;
+          padding: 20px;
+          width: 400px;
+          margin: 30px;
+          height: 90%;
+        
+          h3 {
+            color: purple;
+            padding: 20px;
+          }
+    
+          li {
+            margin: 10px;
+            padding: 0;
+            color: gray;
+          }
+        }
+      }
     }
-  
-    h1 {
-      color: white;
-      display: block;
-      text-align: center;
-      padding: 30px;
-    }
-  
-    h3 {
-      color: white;
-      display: block;
-      text-align: center;
-    }
-  }
 }

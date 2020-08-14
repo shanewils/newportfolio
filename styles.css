@@ -225,7 +225,6 @@ nav {
 
 .about .wrapper .text {
   margin: 30px;
-  padding: 20px;
 }
 
 .about .wrapper .text p {
@@ -368,7 +367,7 @@ nav {
 .skills {
   background-color: purple;
   max-width: 100%;
-  height: 400px;
+  height: 100%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -405,9 +404,28 @@ nav {
   color: white;
   display: block;
   text-align: justify;
+  width: 90%;
 }
 
 .skills .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.skills .skillwrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -415,13 +433,31 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
+  width: 95%;
+  height: 100%;
+  padding: 20px;
+}
+
+.skills .skillwrap .skillcard {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  margin: 30px;
+}
+
+.skills .skillwrap .skillcard h3 {
+  color: purple;
+  padding: 20px;
+  text-align: center;
+}
+
+.skills .skillwrap .skillcard li {
+  margin: 10px;
+  padding: 0;
+  color: gray;
 }
 
 .social {
@@ -449,7 +485,7 @@ nav {
   font-style: none;
   color: purple;
   font-size: 100px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .social a {
@@ -485,6 +521,7 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  max-width: 90%;
 }
 
 footer {
@@ -803,15 +840,11 @@ footer a:hover {
   .skills {
     background-color: purple;
     max-width: 100%;
-    height: 450px;
+    height: 100%;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -828,14 +861,62 @@ footer a:hover {
   }
   .skills h1 {
     color: white;
-    display: block;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
+    font-size: 40px;
   }
   .skills h3 {
     color: white;
     display: block;
     text-align: center;
+  }
+  .skills .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  .skills .skillwrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 80%;
+    height: 400px;
+    padding: 20px;
+  }
+  .skills .skillwrap .skillcard {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    margin: 30px;
+    height: 90%;
+  }
+  .skills .skillwrap .skillcard h3 {
+    color: purple;
+    padding: 20px;
+  }
+  .skills .skillwrap .skillcard li {
+    margin: 10px;
+    padding: 0;
+    color: gray;
   }
 }
 /*# sourceMappingURL=styles.css.map */
