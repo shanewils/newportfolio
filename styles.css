@@ -342,6 +342,11 @@ nav {
   padding: 5px;
 }
 
+.procard .txtcont .tech img {
+  height: 50px;
+  width: 50px;
+}
+
 .procard .prolinks {
   display: -webkit-box;
   display: -ms-flexbox;
